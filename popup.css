@@ -1,0 +1,67 @@
+body {
+    font-family: 'YekanBakh', sans-serif;
+    padding: 20px;
+    width: 320px;
+    direction: rtl;
+    background-color: #f8f9fa;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #007BFF;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: 'YekanBakh', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'YekanBakh', sans-serif;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #statusMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .toast-success {
+    background-color: #28a745;
+  }
+  
+  .toast-failure {
+    background-color: #dc3545;
+  }
+  

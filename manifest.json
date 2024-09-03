@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "ارسال به تلگرام",
+    "version": "1.0",
+    "permissions": ["contextMenus", "storage", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "telegram_logo.png",
+      "128": "telegram_logo.png"
+    }
+  }
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>تنظیمات ربات تلگرام</title>
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    @font-face {
+      font-family: 'YekanBakh';
+      src: url('YekanBakh-Medium.woff2') format('woff2');
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>تنظیمات ربات تلگرام</h2>
+    <div class="form-group">
+      <label for="botToken">توکن ربات:</label>
+      <input type="text" id="botToken" placeholder="توکن ربات خود را وارد کنید">
+    </div>
+    <div class="form-group">
+      <label for="chatId">آیدی چت:</label>
+      <input type="text" id="chatId" placeholder="آیدی چت خود را وارد کنید">
+    </div>
+    <button id="saveCredentials">ذخیره تنظیمات</button>
+    <div id="statusMessage"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
